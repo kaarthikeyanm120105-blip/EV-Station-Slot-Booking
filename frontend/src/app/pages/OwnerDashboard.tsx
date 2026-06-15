@@ -30,7 +30,7 @@ export function OwnerDashboard() {
 
 
 
-  const API_URL = "http://localhost:5000/api";
+  const API_URL = "https://ev-station-slot-booking-backend.onrender.com/api";
 
   useEffect(() => {
     fetchDashboardStats();
