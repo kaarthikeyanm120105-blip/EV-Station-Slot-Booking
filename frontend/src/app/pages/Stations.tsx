@@ -17,7 +17,7 @@ export function Stations() {
   const [userLocation, setUserLocation] = useState<{lat: number, lng: number} | null>(null);
   const [isFallback, setIsFallback] = useState(false);
 
-  const API_URL = "http://localhost:5000/api";
+  const API_URL = "https://ev-station-slot-booking-backend.onrender.com/api";
 
   useEffect(() => {
     // Request user's location on component mount
