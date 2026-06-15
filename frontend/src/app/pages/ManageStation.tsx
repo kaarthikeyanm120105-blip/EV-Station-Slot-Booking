@@ -20,7 +20,7 @@ export function ManageStation() {
     closingTime: "18:00",
   });
 
-  const API_URL = "http://localhost:5000/api";
+  const API_URL = "https://ev-station-slot-booking-backend.onrender.com/api";
 
   useEffect(() => {
     fetchStation();
