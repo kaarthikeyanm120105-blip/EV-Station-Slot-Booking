@@ -23,7 +23,7 @@ export function StationDetails() {
 
   const userRole = localStorage.getItem("role");
 
-  const API_URL = "http://localhost:5000/api";
+  const API_URL = "https://ev-station-slot-booking-backend.onrender.com/api";
 
   useEffect(() => {
     fetchStationDetails();
