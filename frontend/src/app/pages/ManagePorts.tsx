@@ -13,7 +13,7 @@ export function ManagePorts() {
   const [loading, setLoading] = useState(true);
   const [actionLoading, setActionLoading] = useState<number | null>(null);
 
-  const API_URL = "http://localhost:5000/api";
+  const API_URL = "https://ev-station-slot-booking-backend.onrender.com/api";
   const token = localStorage.getItem("token");
 
   useEffect(() => {
